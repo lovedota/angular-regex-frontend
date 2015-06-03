@@ -28,6 +28,7 @@ var config = {
   }
 };
 
+console.log(process.argv.join(''));
 
 if (process.argv.join('').indexOf('production') !== -1) {
   config.plugins = config.plugins.concat([

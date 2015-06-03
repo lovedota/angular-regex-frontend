@@ -10,6 +10,6 @@ before_script:
 script:
  - npm test
 after_script:
-  - webpack
+  - webpack --production
 after_success:
 - scripts/push-to-ghpages.sh
