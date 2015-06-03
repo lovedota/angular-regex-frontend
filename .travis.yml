@@ -13,4 +13,4 @@ script:
 after_script:
   - webpack --production
 after_success:
-- scripts/push-to-ghpages.sh
+- scripts/push-to-backend.sh
