@@ -1,0 +1,123 @@
+input.ng-invalid {
+  border: 1px solid red;
+}
+
+
+.compare-form input {
+  width: 600px;
+  height: 20px;
+}
+
+.compare-form .error {
+  color: red;
+}
+
+
+.available {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  display: inline-block;
+  background: url("../../images/available.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.compare-form button[type='submit'] {
+  height: 26px;
+}
+
+.product-compare-container {
+  margin-top: 30px;   
+  font-size: 13px;
+}
+
+.clear {
+  clear: both;
+}
+
+.product-compare-container ul {
+  list-style-type: none;
+  padding: 4px 0px 4px 8px;
+  margin: 0;
+}
+
+.product-compare-container ul li:before{
+  content: '-'
+}
+
+
+.product-compare-container .product-content {
+  float: left;
+  width: 250px;
+  border-right: 1px solid #aaa;
+}
+
+.product-compare-container .product-content .title{
+  color: #004b91;
+  font-weight: bold;
+  font-size: 13px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-compare-container .product-content .price{
+  color: orange;
+  font-weight: bold;
+}
+
+.product-compare-container .product-content .title, .product-compare-container .product-content .price, .product-compare-container .product-content .availability{
+  text-align: center;
+}
+
+.product-compare-container .product-content .image{
+ 
+}
+
+.product-compare-container .product-content .attr:first-child{
+  border-top: 1px solid #aaa;
+}
+
+.product-compare-container .product-content .attr {
+  border-bottom: 1px solid #aaa;
+}
+
+.product-compare-container .product-content .image img{
+  display: block;
+  margin: 20px auto;
+  max-height: 200px;
+  max-width: 180px;
+}
+
+.product-compare-container .in-the-box{
+  height: 120px;
+}
+
+.product-compare-container .specification{
+  height: 500px;
+}
+
+
+.product-compare-container .product-description {
+  float: left;
+  width: 200px;
+  border-right: 1px solid #aaa;
+  border-left: 1px solid #aaa;
+}
+
+.product-compare-container .product-description .temp{
+  height: 236px;
+}
+
+.product-compare-container .product-description .attr {
+  border-bottom: 1px solid #aaa;
+  color: #555;
+  border-right-width: 0;
+  font-weight: bold;
+}
+
+.product-compare-container .product-description .attr:first-child {
+  border-top: 1px solid #aaa;
+}
+

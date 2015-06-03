@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "description": "test",
+  "main": "main.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.4.0",
+    "angular-route": "~1.4.0",
+    "jquery": "~2.1.4"
+  },
+  "dependencies": {
+    "angular-sanitize": "~1.4.0",
+    "lodash": "~3.9.3"
+  }
+}
