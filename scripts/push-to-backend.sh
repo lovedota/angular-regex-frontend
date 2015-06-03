@@ -14,4 +14,4 @@ cp -rf ../dist .
 
 git add .
 git commit -m "Deployed to Public Folder"
-git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" gh-pages > /dev/null 2>&1
+git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages > /dev/null 2>&1
