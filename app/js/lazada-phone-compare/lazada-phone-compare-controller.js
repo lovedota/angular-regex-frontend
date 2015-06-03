@@ -1,17 +1,12 @@
 function LazadaPhoneCompareCtrl($scope, $http) {
   function urlsHasAtLeastOne() {
-    var i, url;
-    for (i = 0; i < $scope.urls.length; i++) {
-      url = $scope.urls[i];
-      if (url.link.length) {
-        return true;
-      }
-    }
-    return false;
+    return _.some($scope.urls, function (url) {
+      return url.link.length;
+    });
   }
 
   function getUrlParams() {
-    var i, url, params = [];
+    var params = [];
     _.each($scope.urls, function (url) {
       if (url.link.length && !cacheProducts.hasOwnProperty(url.link)) {
         params.push(url.link);

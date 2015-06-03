@@ -16,6 +16,6 @@ after_success:
 - scripts/push-to-backend.sh
 env:
   global:
-  - GH_REF: github.com/lovedota/angular-regex-expression.git
+  - GH_REF: github.com/lovedota/angular-regex-frontend.git
     # GH_TOKEN
   - secure: UYI8BSy/czDKw2aDeQvWnQq+iqEHAdg558f/mmTY4ZBReSbK9FCCuX4xRAjBO42W+CdpPvmg5BF5FlhR46ircRPsG9nc7/kKCfPkWVq42ZHJGEG4gSVYw4vNzFTFh23E9/D3qfNsfMZFEdkZ7Lebv638VhMlubjXizm1RxJZexeQYcZY5yYp8fPKazPIIGy/09SCBi63S4Ygi9FsbaOtmEmYkRu/uBLqRdoeyEY9X/J7gyd+raJjsUCHaQgHOvOkFLIn3B3rCF8LuY/ULZ3lQRtHmNDs4ETLykcqoa4r00JySdzEspOu6M37YXpea96SNpY/GqzWEhEuYZmScb5GL/fK8f0jxG8KWbBcotZq5nVIka98+H1ShZdOCyKMcF6poq8wpmJqiBXVzQwAhJorlnzUs04GTfMPHbAkv+MmXNjPZv2VaKcYok+fr1fm/uSJG4cqML1RJS87n4w/C3LeAyyhqjm06egSXqOZZIbZfzDkIXFNnimN7gOksf/Do++Rm6LHCW8F8UH+TE6jUB4gTYulDnG9tcyPlFCswsTCyDxy64QFNNcZT3R/GePzKQoq9e0wBFATo8vDio2poDiVR5xu/wpHqrIIsDDt0ccSo8jiwKLiZDjV8bWKMlGqif84SPJbxUrqa+0oFliz1Pk7jRxP2gkAmfGEmMw0HCt6w78=
